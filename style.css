@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.Container{
+    text-align: center;
+    margin-top: 25px;
+}
+
+.Container h1{
+    text-decoration: underline;
+    margin-bottom: 15px;
+}
+
+input{
+font-size: 25px;
+border: 2 px solid black;
+border-radius: 10px;
+}
+
+table{
+    margin: auto;
+}
+
+button{
+color: #fff;
+font-size: 35px;
+width: 72px;
+height: 70px;
+background-color: #2C3333;
+border-radius: 15px;
+}
+
+.calculator{
+    display: inline-block;
+    background-color: #FBC7F7 ;
+    border: 3px solid black;
+    border-radius: 30px;
+    padding: 15px;
+}
