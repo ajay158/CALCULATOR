@@ -11,6 +11,7 @@
 }
 
 .Container h1{
+    font-size: 40px;
     text-decoration: underline;
     margin-bottom: 15px;
 }
@@ -41,3 +42,34 @@ border-radius: 15px;
     border-radius: 30px;
     padding: 15px;
 }
+
+@media only screen and (max-width: 600px) {
+    .Container h1{
+        font-size: 20px;
+    }
+
+    input{
+        font-size: 19px;
+        border: 1 px solid black;
+        border-radius: 8px;
+        }
+        
+        table{
+            margin: auto;
+        }
+        
+        button{
+        color: #fff;
+        font-size: 25px;
+        width: 55px;
+        height: 50px;
+        background-color: #2C3333;
+        border-radius: 10px;
+        }
+
+        .calculator{
+            border: 2px solid black;
+            border-radius: 20px;
+            padding: 10px;
+        }
+  }
